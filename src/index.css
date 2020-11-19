@@ -1,0 +1,147 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  padding:0;
+  margin:0;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.navbar-brand{
+  font-size:1.5rem !important;
+  color:#3498db !important;
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+.navbarheight{
+  height:10vh;
+}
+.nav-item{
+  font-size:1.3rem;
+  padding:0 1.2rem 0 0;
+  font-weight: bold;
+}
+.navbar a{
+  color:#3498db !important;
+}
+.navbar a:hover{
+  color:#282292 !important;
+}
+.btnclass{
+  padding-top:20px;
+}
+.place-order{
+  margin-top: 30px;
+  text-decoration: none !important;
+  border: 3px solid #3498db;
+  border-radius: 40px;
+  color: #3498db;
+  font-size: 1.3rem;
+  padding:5px;
+  transition:ease;
+  font-size: large;
+  background-color:white;
+  transition: 1.5s ease-in-out;
+  font-weight: bold;
+}
+.place-order:hover{
+  margin-top: 10px;
+  animation-name: button;
+  animation-duration: 2s ease-in-out;
+  font-size:large;
+  background-color:#3498db;
+  color:white;
+}
+@keyframes button {
+  0%{
+    text-decoration: none !important;
+    border: 3px solid #3498db;
+    border-radius: 40px ;
+    color: #3498db;
+    font-size: 1.3rem;
+    padding:5px;
+    transition:ease;
+    font-size: large;
+    margin-top: 10px;
+    background-color:#3498db;
+    color:white;
+  }
+  100%{
+    text-decoration: none !important;
+    border: 3px solid #3498db;
+    border-radius: 10px ;
+    color: #3498;
+    font-size: 1.3rem;
+    padding:5px;
+    transition:ease;
+    font-size: large;
+    margin-top: 10px;
+    background-color:#3498db;
+    color:white;
+  }
+}
+.brand_name{
+  color: #3498db;
+}
+.info{
+  height:80vh;
+  display:flex !important;
+  flex-direction: column;
+  justify-content:center;
+  text-align: start;
+}
+.img{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 3px;
+  animation:up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+  0%{
+    transform:translateX(25px);
+  }
+  100%{
+    transform:translateX(-25px);
+  }
+}
+.img img{
+  border-radius: 6px;
+}
+
+.header-pic{
+  background-color: rgb(230, 245, 255);
+}
+.footer{
+  height:10vh;
+  display: flex;
+  flex-direction:column;
+  text-align: center;
+  justify-content: center;
+  color:#3498db;
+  background-color: rgba(255, 255, 255, 0.555);
+}
+
+.center h1{
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+.col-sm{
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+}
